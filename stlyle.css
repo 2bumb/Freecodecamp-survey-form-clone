@@ -11,6 +11,9 @@ color:white;
   }
  #survey-form
   {background-color:rgba(27, 27, 50,0.8);
+  width:80%;
+  margin:0 auto;
+  border-radius:10px; /*Might need to go down 2px-5px*/
   }
 
   .box{border: 2px solid black;
