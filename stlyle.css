@@ -6,8 +6,17 @@ body {
     color: #f5f6f7;
     font-family: Tahoma;
     font-size: 16px;
-  }
+     background-image: url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg');
+     background-repeat:no-repeat;
+     background-size: cover;
   
+  }
+  .box{border: 2px solid black;
+  width: 550px;
+  margin: 20px auto;
+  padding: 0 7px;}
+  
+ 
   h1, p {
     margin: 1em auto;
     text-align: center;
@@ -74,3 +83,6 @@ body {
   .inline{
     display: inline; 
   }
+
+  
+  
