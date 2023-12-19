@@ -9,6 +9,9 @@ font-weight:400;
 color:white;
   
   }
+ #survey-form
+  {background-color:rgba(27, 27, 50,0.8);
+  }
 
   .box{border: 2px solid black;
   width: 550px;
