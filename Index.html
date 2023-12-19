@@ -1,46 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Registration Form</title>
-    <link rel="stylesheet" href="stlyle.css" />
-  </head>
-  <body>
-    <h1>Registration Form</h1>
-    <p>Please fill out this form with the required information</p>
-    <form method="post" action='https://register-demo.freecodecamp.org'>
-      <fieldset>
-        <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
-        <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
-        <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
-        <label for="new-password">Create a New Password: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
-      </fieldset>
-      <fieldset>
-        <legend>Account type (required)</legend>
-        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" checked /> Personal</label>
-        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Business</label>
-      </fieldset>
-      <fieldset>
-        <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label>
-        <label for="age">Input your age (years): <input id="age" type="number" name="age" min="13" max="120" /></label>
-        <label for="referrer">How did you hear about us?
-          <select id="referrer" name="referrer">
-            <option value="">(select one)</option>
-            <option value="1">freeCodeCamp News</option>
-            <option value="2">freeCodeCamp YouTube Channel</option>
-            <option value="3">freeCodeCamp Forum</option>
-            <option value="4">Other</option>
-          </select>
-        </fieldset>
-        </label>
-        <label for="bio">Provide a bio:
-          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
-        </label>
+<head><meta charset="UTF-8"><title>freecodecamp survey form</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+  
+  <h1 id= title>freeCodeCamp Survey Form<h1>
+      
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+<div class="box"><form id="survey-form">
+<fieldset>
+<label id="name-label">Name
+
+<input required id="name"type="text" placeholder="John"></input>
+
+<label id="email-label">Email<input required id="email"type="email" placeholder="john@gmail.com"> </input></label>
+
+<label id="number-label">Number<input required id="number" type="number"min="0" max="10" placeholder="123-45-678"></input></lable>
+</fieldset>
+<fieldset>
+   <label for="dropdown">Food
+  <select id="dropdown" name="dropdown"> 
+  <option value="cookies">Cookies</option>
+  <option value="Water">Water</option>
+  <option value="Soda">Soda</option>
+  <option value="Apple Juice">Apple Juice</option>
+  </select>
+</label>
+ </fieldset>
+ <fieldset>
    
-      <label for="terms-and-conditions">
-        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
-      </label>
-      <input type="submit" value="Submit" />
-    </form>
-  </body>
+   <legend>Account type (required)</legend>
+  <label for="personal-account"><input id="personal-account"type="radio" class="inline"name="account-type" value="Name"> Personal</label>
+
+
+    <label for="business-account"><input id="business-account"type="radio" class="inline"name="account-type" value="Name"> Business</label>
+</fieldset>
+  
+
+<fieldset>
+     <legend>Order type</legend>
+
+<label for="vehicle1"><input id="vehicle1" type="checkbox" class="inline"
+ name="vehicle1" value="Bike">I have a bike</label>
+
+<label for="vehicle2"> <input type="checkbox" class="inline" id="vehicle1" name="vehicle2" value= "Bike">I have a bike</label>
+
+</fieldset>
+
+
+
+
+<textarea id="comment" name="comment" rows="5" cols="33"placeholder="I really enjoy..">
+
+</textarea>
+ 
+ <button id="submit" type="submit">submit</button>
+ 
+  </fieldset>
+
+
+ 
+  </div>
+  </form>
+</body>
 </html>
+
+  
