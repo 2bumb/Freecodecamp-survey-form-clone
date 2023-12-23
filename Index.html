@@ -11,19 +11,20 @@
         <input required id="name"type="text" placeholder="John">
     <label id="email-label">Email</label>
         <input required id="email"type="email" placeholder="john@gmail.com">
-              <label id="number-label">Number<input required id="number" type="number"min="0" max="10" placeholder="123-45-678"></input></lable>
-</fieldset> <!--Fieldset might need to be remove-->
-<fieldset>
-   <label for="dropdown">Food
-  <select id="dropdown" name="dropdown"> 
-  <option value="cookies">Cookies</option>
-  <option value="Water">Water</option>
-  <option value="Soda">Soda</option>
-  <option value="Apple Juice">Apple Juice</option>
-  </select>
-</label>
- </fieldset>
- <fieldset>
+            <label id="number-label">Number<input required id="number" type="number"min="0" max="10" placeholder="123-45-678"></input></lable>
+ 
+    <div class="form-div">
+     <label for="dropdown-label-feature" id="dropdown-label">Which option best describes your current role?</label>
+        <select id="dropdown" name="dropdown"> 
+        <option value="1">Select Current Role</option>
+          <option value="2">Student</option>
+             <option value="3">Full Time Job</option>
+               <option value="4">Full Timer Leaner</option>
+                  <option value="5">Prefer Not To Say</option>
+              <option value="6">Other</option>
+               </select>
+                </div>
+  
    
    <legend>Account type (required)</legend>
   <label for="personal-account"><input id="personal-account"type="radio" class="inline"name="account-type" value="Name"> Personal</label>
