@@ -49,7 +49,11 @@ margin:0;
     margin: 0 auto;
     padding-bottom: 2em;
   }
-
+ .form-radio, .div-checkbox{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding-bottom: 10px;}
   
   label {
     display: block;
