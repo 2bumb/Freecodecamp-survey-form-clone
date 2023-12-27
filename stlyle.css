@@ -95,5 +95,10 @@ width: 10%;
     margin: 0 0.5em 0 0;
     vertical-align: middle;
   }
+   .your-section:hover {
+  pointer-events: none;
+  background-color: #ddd; /* Optional: Change background color on hover if needed */
+}
+ 
   
  
