@@ -97,8 +97,16 @@ width: 10%;
   }
    .your-section:hover {
   pointer-events: none;
-  background-color: #ddd; /* Optional: Change background color on hover if needed */
+  background-color: #ddd; /* Optional: I can change  the background color on hover if needed */
 }
+   .your-section {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  transition: background-color 0.3s ease;
+}
+
  
   
  
