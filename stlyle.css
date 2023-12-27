@@ -78,17 +78,6 @@ width: 10%;
   font-size: 18px;
   color: black;
   }
-    #dropdown
-  { width:90%;
-    margin:0 auto;
-    border-radius:10px;  
-    display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-radius: 5px;
-  height: 40px;
-  font-size: 18px;
-  color: black;
   
   .inline {
     width: unset;
