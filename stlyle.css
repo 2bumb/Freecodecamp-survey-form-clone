@@ -7,6 +7,7 @@ font-family: 'Poppins', sans-serif;
 color:white;
 margin:0;
   }
+
 #title{
   margin-top:50px;
   text-align:center;
@@ -14,6 +15,7 @@ margin:0;
   font-weight:400;
   font-family: 'Poppins', sans-serif;
       }
+
 #description{
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -23,12 +25,14 @@ margin:0;
   font-style:italic;
   font-size: 20px;
   }
+
  #survey-form
   {background-color:rgba(27, 27, 50,0.8);
   width:80%;
   margin:0 auto;
   border-radius:10px; /*Might need to go down 2px-5px*/
   }
+
 .form-div{
     display:flex;
      flex-direction: column;
@@ -50,6 +54,7 @@ margin:0;
     margin: 0 auto;
     padding-bottom: 2em;
   }
+  
  .form-radio, .div-checkbox{
 display: flex;
 flex-direction: row;
@@ -67,8 +72,8 @@ margin-left: 20px;
 width: 10%;
 }
 
-  #dropdown-feature
-  { width:90%;
+  #dropdown-feature{
+ width:90%;
     margin:0 auto;
     border-radius:10px;  
     display: flex;
