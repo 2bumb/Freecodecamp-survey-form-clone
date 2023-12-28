@@ -43,16 +43,16 @@ margin:0;
   
  
   h1, p {
-    margin: 1em auto;
-    text-align: center;
+  margin: 1em auto;
+  text-align: center;
   }
   
   form {
-    width: 60vw;
-    max-width: 500px;
-    min-width: 300px;
-    margin: 0 auto;
-    padding-bottom: 2em;
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
   }
   
  .form-radio, .div-checkbox{
@@ -62,8 +62,8 @@ align-items: center;
 padding-bottom: 10px;}
   
   label {
-    display: block;
-    margin: 0.5rem 0;
+  display: block;
+  margin: 0.5rem 0;
   }
 
 input[type="radio"], input[type="checkbox"]{
