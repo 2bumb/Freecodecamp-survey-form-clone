@@ -84,12 +84,6 @@ width: 10%;
   font-size: 18px;
   color: black;
   }
-  
-  .inline {
-    width: unset;
-    margin: 0 0.5em 0 0;
-    vertical-align: middle;
-  }
 #textarea-text{color:grey;
  font-family: 'Poppins', sans-serif;
  width: 580px;
