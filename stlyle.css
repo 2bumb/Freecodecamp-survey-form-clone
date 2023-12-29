@@ -1,98 +1,140 @@
 body {
-background-image: url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg');
+  font-family: 'Poppins', sans-serif;
+  background-image:linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg); 
 background-repeat:no-repeat;
-background-size: cover;background-image: 
-linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg); 
-font-family: 'Poppins', sans-serif;
-color:white;
-margin:0;
-  }
+background-size:cover;
+background-position:center;
+background-attachment: fixed;
+/*width:99vw;
+height:99vw;
+*/
 
-#title{
-  margin-top:50px;
-  text-align:center;
-  margin-bottom:5px;
-  font-weight:400;
-  font-family: 'Poppins', sans-serif;
-      }
+color: white;     
+margin:0; 
 
-#description{
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+   }
+
+#title
+   {margin-top:50px;
+    text-align:center;
+    margin-bottom:5px;
+    font-weight:400;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;  
+   
+
+   }
+
+   
+   #description
+ {text-align: center;
+  font-family: sans-serif,'Poppins';
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   margin-top:0;
-  font-weight:100;  
-  font-style:italic;
+  font-weight:50;  
   font-size: 20px;
+  font-style:italic;
+ 
   }
 
- #survey-form
-  {background-color:rgba(27, 27, 50,0.8);
-  width:80%;
+ 
+  #survey-form
+  { background-color:rgba(27, 27, 50,0.8);
+    width:80%;
   margin:0 auto;
-  border-radius:10px; /*Might need to go down 2px-5px*/
-  }
+  border-radius:3px;  
+  display: flex;
+flex-direction: column;
+justify-content: center;
+min-width: 500px; 
+max-width: 700px;
+padding-top: 2.5rem;
+font-weight: 350;
 
-.form-div{
-   display:flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+  }
+ .form-div{
+    display:flex;
+     flex-direction: column;
+     justify-content: center;
+    align-items: center;
    margin:auto 1.25rem auto;
    padding:0.25rem;
-}
-  label{
-  width:90%;
-  display: block;
-  margin:auto 1.25rem;
-  padding:0.25rem;
-  align-items:center;
-  flex-direction:column;
-  }    
-  
-  form {
-  width: 60vw;
-  max-width: 500px;
-  min-width: 300px;
-  margin: 0 auto;
-  padding-bottom: 2em;
   }
-input[type="radio"], input[type="checkbox"]{
-height: 20px;
-margin-left: 20px;
-width: 10%;
-}
 
-.form-radio, .div-checkbox{
-display: flex;
-flex-direction: row;
-align-items: center;
-padding-bottom: 10px;}
+  label
+ {width:90%;
+ margin-bottom:10px;
+ display: block;
+font-size: 18px;
 
-  #dropdown-feature{
+  }
+  textarea{
   width:90%;
-  margin:0 auto;
-  border-radius:10px;  
-  display: flex;
+  font-size:16px;
+  height: 100px;}
+
+  input,select,textarea
+  {width: 90%;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  }
+  #dropdown
+  { width:90%;
+    margin:0 auto;
+    border-radius:10px;  
+    display: flex;
   flex-direction: column;
   justify-content: center;
   border-radius: 5px;
   height: 40px;
   font-size: 18px;
   color: black;
-  }
 
-  input,select,textarea{
-  width: 90%;
-  height: 40px;
-  border-radius: 5px;
-  font-size: 16px;
-  }
-#textarea-text{
- color:grey;
+
+}
+input[type="radio"], input[type="checkbox"]
+{height: 20px;
+margin-left: 20px;
+width: 10%;
+}
+
+ .form-radio, .div-checkbox{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding-bottom: 10px;}
+
+#dropdown-feature{width:90%;
+  margin:0 auto;
+  border-radius:10px;  
+  display: flex;
+flex-direction: column;
+justify-content: center;
+border-radius: 5px;
+height: 40px;
+font-size: 18px;
+color: black;
+}
+
+
+
+input[type="submit"]
+{width:94.5%; /*needs to be small having the same width as the textarea*/
+color:white;
+background-color: rgb(79, 183, 79);
+border-bottom: 200px;
+border:1px solid rgb(79, 183, 79);
+margin-bottom:50px;
+
+  
+}
+
+#textarea-text{color:grey;
  font-family: 'Poppins', sans-serif;
- width: 580px;
- height: 125px;
+ margin-right:1px;
+ width:580px;
+ height: 125px;/*Sizing needs to be improve would prefer the box to be smaller and the submit button*/
+ border-radius: 1px;
  margin-bottom: 25px;
- border-radius:1px;
 }
