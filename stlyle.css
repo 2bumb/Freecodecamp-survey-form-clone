@@ -41,16 +41,21 @@ margin:0;
    margin:auto 1.25rem auto;
    padding:0.25rem;
 }
+  label{
+  width:90%;
+  display: block;
+  margin:auto 1.25rem;
+       padding:0.25rem;
+    align-items:center;
+    flex-direction:column;
+  }
  
   h1, p {
   margin: 1em auto;
   text-align: center;
   }
     
-  label {
-  display: block;
-  margin: 0.5rem 0;
-  }
+  
   form {
   width: 60vw;
   max-width: 500px;
