@@ -84,7 +84,9 @@ width: 10%;
   font-size: 18px;
   color: black;
   }
-#textarea-text{color:grey;
+  
+#textarea-text{
+ color:grey;
  font-family: 'Poppins', sans-serif;
  width: 580px;
  height: 125px;
