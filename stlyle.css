@@ -100,7 +100,6 @@ body {
 }
  input[type="submit"] {
     width:94.5%;
-    /*needs to be small having the same width as the textarea*/
      color:white;
      background-color: rgb(79, 183, 79);
      border-bottom: 200px;
