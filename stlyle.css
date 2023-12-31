@@ -16,8 +16,6 @@ margin:0;
     font-weight:400;
     font-size: 35px;
     font-family: 'Poppins', sans-serif;  
-   
-
    }
 
    
@@ -29,10 +27,7 @@ margin:0;
   font-weight:50;  
   font-size: 20px;
   font-style:italic;
- 
   }
-
- 
   #survey-form
   { background-color:rgba(27, 27, 50,0.8);
     width:80%;
@@ -45,8 +40,8 @@ min-width: 500px;
 max-width: 700px;
 padding-top: 2.5rem;
 font-weight: 350;
-
   }
+
  .form-div{
     display:flex;
      flex-direction: column;
@@ -61,8 +56,8 @@ font-weight: 350;
  margin-bottom:10px;
  display: block;
 font-size: 18px;
-
   }
+
   textarea{
   width:90%;
   font-size:16px;
@@ -74,6 +69,7 @@ font-size: 18px;
   border-radius: 5px;
   font-size: 16px;
   }
+
   #dropdown
   { width:90%;
     margin:0 auto;
